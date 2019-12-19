@@ -8,3 +8,6 @@ class ROSSpeechRecognizer:
         self.Recognizer = sr.Recognizer()
         self.Mic = sr.Microphone(device_index=mic_idx)
         self.language = 'en-US'
+
+    def get_microphone_list(self):
+        self.mic_list = sr.Microphone.list_microphone_names()
