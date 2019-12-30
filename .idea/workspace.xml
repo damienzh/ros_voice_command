@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ad96d45-3044-46b4-ad75-4f4dc6c47868" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/scripts/respeaker_core_node.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ros_voice_command.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ros_voice_command.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/respeaker_core_node.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/respeaker_core_node.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +33,8 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/PycharmProjects/Py36/speech_test/speech_recognize_test.py" />
+    <property name="last_opened_file_path" value="/opt/ros/kinetic/lib/python2.7/dist-packages" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -107,10 +111,15 @@
       <screen x="49" y="24" width="1871" height="1056" />
     </state>
     <state x="596" y="135" width="777" height="805" key="CommitChangelistDialog2/49.24.1871.1056@49.24.1871.1056" timestamp="1576736858810" />
-    <state x="772" y="297" key="FileChooserDialogImpl" timestamp="1577670279945">
-      <screen x="49" y="24" width="1871" height="1056" />
+    <state x="782" y="297" key="FileChooserDialogImpl" timestamp="1577673928563">
+      <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state x="772" y="297" key="FileChooserDialogImpl/49.24.1871.1056@49.24.1871.1056" timestamp="1577670279945" />
+    <state x="782" y="297" key="FileChooserDialogImpl/65.24.1855.1056@65.24.1855.1056" timestamp="1577673928563" />
+    <state x="486" y="174" key="SettingsEditor" timestamp="1577673939626">
+      <screen x="65" y="24" width="1855" height="1056" />
+    </state>
+    <state x="486" y="174" key="SettingsEditor/65.24.1855.1056@65.24.1855.1056" timestamp="1577673939626" />
     <state x="584" y="275" key="Vcs.Push.Dialog.v2" timestamp="1576736926502">
       <screen x="49" y="24" width="1871" height="1056" />
     </state>
