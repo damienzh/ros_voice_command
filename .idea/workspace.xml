@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ad96d45-3044-46b4-ad75-4f4dc6c47868" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ros_voice_command.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ros_voice_command.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/respeaker_core_node.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/respeaker_core_node.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ros_voice_command.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/speech_recognize_node.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +21,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SET_USER_NAME_GLOBALLY" value="false" />
   </component>
   <component name="ProjectId" id="1UsG87frIVlNgQa7RqewM3A9YO1" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -34,7 +34,35 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="/opt/ros/kinetic/lib/python2.7/dist-packages" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+  </component>
+  <component name="RunManager">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ros_voice_command" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.test" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -80,7 +108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576736861062</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="update">
+      <created>1577698599983</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1577698599983</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -107,22 +142,40 @@
       <screen x="49" y="24" width="1871" height="1056" />
     </state>
     <state x="730" y="411" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/49.24.1871.1056@49.24.1871.1056" timestamp="1577670283688" />
-    <state x="596" y="135" width="777" height="805" key="CommitChangelistDialog2" timestamp="1576736858810">
-      <screen x="49" y="24" width="1871" height="1056" />
+    <state x="607" y="135" width="777" height="805" key="CommitChangelistDialog2" timestamp="1577698599885">
+      <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state x="596" y="135" width="777" height="805" key="CommitChangelistDialog2/49.24.1871.1056@49.24.1871.1056" timestamp="1576736858810" />
+    <state x="607" y="135" key="CommitChangelistDialog2/65.24.1855.1056@65.24.1855.1056" timestamp="1577698599885" />
     <state x="782" y="297" key="FileChooserDialogImpl" timestamp="1577673928563">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state x="772" y="297" key="FileChooserDialogImpl/49.24.1871.1056@49.24.1871.1056" timestamp="1577670279945" />
     <state x="782" y="297" key="FileChooserDialogImpl/65.24.1855.1056@65.24.1855.1056" timestamp="1577673928563" />
-    <state x="486" y="174" key="SettingsEditor" timestamp="1577673939626">
+    <state width="1832" height="296" key="GridCell.Tab.0.bottom" timestamp="1577774017501">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
-    <state x="486" y="174" key="SettingsEditor/65.24.1855.1056@65.24.1855.1056" timestamp="1577673939626" />
-    <state x="584" y="275" key="Vcs.Push.Dialog.v2" timestamp="1576736926502">
-      <screen x="49" y="24" width="1871" height="1056" />
+    <state width="1832" height="296" key="GridCell.Tab.0.bottom/65.24.1855.1056@65.24.1855.1056" timestamp="1577774017501" />
+    <state width="1832" height="296" key="GridCell.Tab.0.center" timestamp="1577774017501">
+      <screen x="65" y="24" width="1855" height="1056" />
+    </state>
+    <state width="1832" height="296" key="GridCell.Tab.0.center/65.24.1855.1056@65.24.1855.1056" timestamp="1577774017501" />
+    <state width="1832" height="296" key="GridCell.Tab.0.left" timestamp="1577774017500">
+      <screen x="65" y="24" width="1855" height="1056" />
+    </state>
+    <state width="1832" height="296" key="GridCell.Tab.0.left/65.24.1855.1056@65.24.1855.1056" timestamp="1577774017500" />
+    <state width="1832" height="296" key="GridCell.Tab.0.right" timestamp="1577774017501">
+      <screen x="65" y="24" width="1855" height="1056" />
+    </state>
+    <state width="1832" height="296" key="GridCell.Tab.0.right/65.24.1855.1056@65.24.1855.1056" timestamp="1577774017501" />
+    <state x="486" y="174" key="SettingsEditor" timestamp="1577753246843">
+      <screen x="65" y="24" width="1855" height="1056" />
+    </state>
+    <state x="486" y="174" key="SettingsEditor/65.24.1855.1056@65.24.1855.1056" timestamp="1577753246843" />
+    <state x="595" y="275" key="Vcs.Push.Dialog.v2" timestamp="1577698604248">
+      <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state x="584" y="275" key="Vcs.Push.Dialog.v2/49.24.1871.1056@49.24.1871.1056" timestamp="1576736926502" />
+    <state x="595" y="275" key="Vcs.Push.Dialog.v2/65.24.1855.1056@65.24.1855.1056" timestamp="1577698604248" />
   </component>
 </project>
