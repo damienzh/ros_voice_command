@@ -8,7 +8,6 @@ project(ros_voice_command)
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
 ## is used, also find other catkin packages
 find_package(catkin REQUIRED COMPONENTS
-  dynamic_reconfigure
   rospy
   std_msgs
   std_srvs
