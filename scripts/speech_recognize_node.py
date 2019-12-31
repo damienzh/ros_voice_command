@@ -69,3 +69,5 @@ class ROSSpeechRecognizer:
 if __name__ == '__main__':
     rospy.init_node('speech_recognizer')
     sr = ROSSpeechRecognizer()
+    rate = rospy.Rate(10)
+    rospy.spin()
