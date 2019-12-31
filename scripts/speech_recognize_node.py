@@ -16,7 +16,7 @@ class ROSSpeechRecognizer:
         self.Mic = sr.Microphone(device_index=mic_idx)
         self.language = 'en-US'
         self.kws = None
-
+        self.set_kws()
         self.result_pub = rospy.Publisher('/speech_recognizer/result', String, queue_size=5)
         self.recognize_srv = rospy.Service('/speech_recognizer/listen', Trigger, self.listen_hdl)
 
@@ -27,11 +27,11 @@ class ROSSpeechRecognizer:
         with self.Mic as source:
             self.Recognizer.adjust_for_ambient_noise(source, duration=1)
             print "listening..."
-            audio = self.Recognizer.listen(source, phrase_time_limit=3)
+            audio = self.Recognizer.listen(source, phrase_time_limit=2, timeout=3)
             try:
                 msg = self.Recognizer.recognize_sphinx(audio, language=self.language, keyword_entries=self.kws)
                 ret = True
-                print('Sphinx thinks you said:'.format(msg))
+                print('Sphinx thinks you said: {}'.format(msg))
             except sr.UnknownValueError:
                 print('Sphinx could not understand audio')
                 msg = 'Could not understand'
@@ -64,6 +64,9 @@ class ROSSpeechRecognizer:
             response.success = r
             response.message = msg
         return response
+
+    def set_kws(self):
+        self.kws = [("zero", 0.9), ("standby", 0.9), ("vision", 0.9)]
 
 
 if __name__ == '__main__':
